@@ -1,0 +1,15 @@
+/* Readability for the content review only. Create the final design from the approved brief. */
+* { box-sizing: border-box; }
+body { margin: 0; font: 1rem/1.6 system-ui, sans-serif; background: #fff; color: #222; }
+main { max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem; }
+aside { border-bottom: 1px solid #bbb; padding-bottom: 1rem; margin-bottom: 2rem; }
+aside p { margin-bottom: 0; }
+h1 { line-height: 1.2; overflow-wrap: anywhere; }
+.catalog { padding-left: 1.25rem; }
+.catalog li { margin-block: 1.5rem; overflow-wrap: anywhere; }
+.catalog a { display: inline-block; padding-block: .55rem; color: #163c8c; text-underline-offset: .18em; }
+.catalog p { margin: .15rem 0; }
+.catalog-group, .catalog small { display: block; }
+.catalog-group { font-size: .875rem; }
+a:focus-visible { outline: 3px solid #163c8c; outline-offset: 4px; }
+#status { font-size: .875rem; }
